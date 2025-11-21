@@ -57,9 +57,13 @@
   <ItemGroup>
     <Folder Include="Properties" />
     <Folder Include="Scripts" />
+    <Folder Include="Docs" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Scripts\1_creando_base_prueba.sql" />
     <Build Include="Scripts\2_delete_matematica.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Docs\README.md" />
   </ItemGroup>
 </Project>
